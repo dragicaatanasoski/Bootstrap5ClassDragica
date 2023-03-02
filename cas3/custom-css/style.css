@@ -1,0 +1,11 @@
+.primer  .row {
+    height: 150px;
+    background-color:palevioletred;
+    margin-bottom: 20px;
+}
+
+.primer .col , .primer .col-4 , .primer .col-2{
+    background-color: pink;
+    height: 50px;
+    border: 1px solid#f2f2f2;
+}
