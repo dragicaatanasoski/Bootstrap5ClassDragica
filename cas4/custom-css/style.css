@@ -1,0 +1,15 @@
+.parent{
+    font-size: 16px;
+}
+
+.child{
+    font-size: 2em;
+}
+
+.customclass {
+    height:30px;
+}
+
+.div1 .div2 {
+    display: inline-block;
+}
