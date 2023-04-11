@@ -1,0 +1,15 @@
+a{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.prva-sekcija{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top: 6px solid #5385c1;
+}
