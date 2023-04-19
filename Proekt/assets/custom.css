@@ -22,3 +22,18 @@ a{
 i{
     color: #5385c1;
 }
+
+.leva-elements{
+    border-bottom: 1px solid gray;
+}
+.leva-hedinzi{
+    border-bottom: 1px solid gray;
+}
+
+.unordered-list{
+    float: left;
+}
+.ordered-list{
+    float: left;
+    margin-top: 38px;
+}
