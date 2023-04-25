@@ -17,7 +17,7 @@ a{
     background-repeat: no-repeat;
     border-top: 6px solid #5385c1;
 }
-.flex{
+.flex-3{
     display: flex;
     justify-content: space-between;
 }
@@ -30,7 +30,11 @@ a{
     background-color: #5385c1;
     padding: 6em;
 }
-
+.flex-4{
+    display: flex;
+    justify-content: space-between;
+    
+}
 
 i{
     color: #5385c1;
@@ -73,7 +77,12 @@ i{
     .addtoponmobile{
         margin-top:5%;
     }
-  
+.boxx{
+    border-top: 0px !important;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
 .box-one{
     padding-right: 0!important;
     border-right: none !important;
