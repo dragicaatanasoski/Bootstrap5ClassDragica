@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+body{
+  font-family: 'Raleway', sans-serif;
+}
 a{
     color: white;
 }
@@ -13,9 +17,18 @@ a{
     background-repeat: no-repeat;
     border-top: 6px solid #5385c1;
 }
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
 
+.vtora-sekcija{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 .treta-sekcija{
     background-color: #5385c1;
+    padding: 6em;
 }
 
 
@@ -53,4 +66,48 @@ i{
 .bigger{
     padding-top: 1px;
     padding-bottom: 1px;
+}
+
+
+@media(max-width:768px){
+    .addtoponmobile{
+        margin-top:5%;
+    }
+  
+.box-one{
+    padding-right: 0!important;
+    border-right: none !important;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    }
+
+.box-two{
+    padding-left: 0!important;
+    border-right:none !important;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.box-three{
+    padding-left: 0!important;
+    text-align: center;
+}
+    .treta-sekcija .row{
+        padding-left: 0;
+    }
+
+    .flex-3 .btn{
+      width: 100%;
+    }
+    .box1 .box2 {
+        box-sizing:none !important;
+    }
+
+    .cetvrta-sekcija{
+        text-align: center;
+    }
 }
